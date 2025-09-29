@@ -1,72 +1,83 @@
 <!doctype html>
-
 <html lang="pt-BR">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Perfil — Ruan Souza Santos</title>
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Person",
-    "name": "Ruan Souza Santos",
-    "birthDate": "2007-11-29",
-    "jobTitle": "Estudante de Ensino Médio",
-    "description": "Ruan Souza Santos é estudante de ensino médio, nascido em 29 de novembro de 2007. Interessado em expandir seus conhecimentos e se preparar para o futuro, destaca-se pelo empenho acadêmico e pelo desejo de aprendizado contínuo.",
-    "url": "https://ruansouzasantos.github.io"
-  }
-  </script>
+  <title>Ruan Souza Santos — Site Oficial</title>
   <style>
-    :root{--bg:#0f1720;--card:#111827;--muted:#9ca3af;--accent:#2563eb;--glass:rgba(255,255,255,0.03)}
-    *{box-sizing:border-box;font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial}
-    body{margin:0;background:linear-gradient(180deg,#0b1220 0%, #0f1720 100%);color:#e6eef8}
-    .wrap{max-width:920px;margin:28px auto;padding:20px}
-    .panel{background:linear-gradient(180deg,rgba(255,255,255,0.02), rgba(0,0,0,0.02));border-radius:14px;padding:18px;display:grid;grid-template-columns:260px 1fr;gap:18px;box-shadow:0 6px 30px rgba(2,6,23,0.6)}
-    .avatar{height:220px;border-radius:10px;overflow:hidden;background:var(--glass);display:flex;align-items:center;justify-content:center;color:var(--muted);font-size:14px}
-    h1{margin:0;font-size:22px}
-    .subtitle{color:var(--muted);font-size:13px;margin-top:6px}
-    .badges{margin-top:12px}
-    .badge{display:inline-block;background:rgba(255,255,255,0.03);padding:6px 10px;border-radius:999px;font-size:13px;margin-right:8px;color:var(--muted)}
-    .meta-grid{display:flex;gap:12px;margin-top:14px}
-    .meta{background:var(--card);padding:12px;border-radius:10px;flex:1}
-    .meta strong{display:block;font-size:18px}
-    .bio{background:var(--card);padding:14px;border-radius:10px;margin-top:14px;color:#d6e6ff}
-    .actions{margin-top:12px}
-    .btn{display:inline-block;padding:10px 14px;border-radius:10px;background:var(--accent);color:white;text-decoration:none;font-weight:600;margin-right:8px}
-    .link{color:var(--muted);text-decoration:none;font-size:14px}
-    footer{margin-top:16px;color:var(--muted);font-size:13px}
-    @media (max-width:760px){.panel{grid-template-columns:1fr;}.avatar{height:160px}}
+    :root{--bg:#0f1720;--card:#111827;--muted:#9ca3af;--accent:#2563eb}
+    *{box-sizing:border-box;font-family:Inter,system-ui,-apple-system,'Segoe UI',Roboto,Arial}
+    body{margin:0;background:linear-gradient(180deg,#0b1220,#0f1720);color:#e6eef8}
+    header{padding:20px;text-align:center}
+    h1{margin:0;font-size:28px}
+    .subtitle{color:var(--muted);margin-top:6px}
+    nav{margin-top:14px}
+    nav a{margin:0 10px;text-decoration:none;color:var(--accent);font-weight:600}
+    section{max-width:800px;margin:40px auto;padding:20px;background:var(--card);border-radius:12px}
+    section h2{margin-top:0;color:var(--accent)}
+    .social-links a{display:inline-block;margin:8px 10px;padding:10px 14px;border-radius:8px;background:rgba(255,255,255,0.05);text-decoration:none;color:#fff}
+    .poem{margin-bottom:20px;padding:14px;background:rgba(255,255,255,0.02);border-radius:8px;line-height:1.6}
+    footer{text-align:center;padding:20px;color:var(--muted);font-size:14px;margin-top:30px}
   </style>
 </head>
 <body>
-  <div class="wrap">
-    <div class="panel">
-      <div>
-        <div class="avatar">
-          Sem foto disponível
-        </div>
-      </div>
-      <div>
-        <h1>Ruan Souza Santos</h1>
-        <div class="subtitle">Estudante de Ensino Médio</div>
-        <div class="badges">
-          <span class="badge">Visão geral</span>
-          <span class="badge">Formação</span>
-        </div>
-        <div class="meta-grid">
-          <div class="meta"><small>Idade</small><strong>17 anos</strong><div class="subtitle">29 de novembro de 2007</div></div>
-          <div class="meta"><small>Formação</small><strong>Ensino Médio</strong><div class="subtitle">Em andamento</div></div>
-        </div>
-        <div class="bio">
-          <strong>Visão geral</strong>
-          <p>Ruan Souza Santos é estudante de ensino médio, nascido em 29 de novembro de 2007. Interessado em expandir seus conhecimentos e se preparar para o futuro, destaca-se pelo empenho acadêmico e pelo desejo de aprendizado contínuo.</p>
-        </div>
-        <div class="actions">
-          <a class="btn" href="https://ruansouzasantos.github.io" target="_blank">Site oficial</a>
-        </div>
-        <footer>Fonte: protótipo — personalize com suas redes sociais e conteúdo.</footer>
-      </div>
+  <header>
+    <h1>Ruan Souza Santos</h1>
+    <div class="subtitle">Estudante de Ensino Médio</div>
+    <nav>
+      <a href="#redes">Redes sociais</a>
+      <a href="#poemas">Poemas</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </header>
+
+  <section id="redes">
+    <h2>🌐 Redes sociais</h2>
+    <div class="social-links">
+      <a href="https://www.instagram.com/rusxl_15?igsh=MTZucnlhcTBrdXN0dg==" target="_blank">Instagram</a>
     </div>
-  </div>
+  </section>
+
+  <section id="poemas">
+    <h2>✍️ Poemas</h2>
+    <div class="poem">
+      <strong>Rastro</strong><br><br>
+      Não tecem a luz os fios da teia,<br>
+      nem a geada que a manhã deseja.<br>
+      Tecermos é o fio do espanto,<br>
+      o rastro de assombro e quebranto.<br><br>
+
+      O vento não carrega a palavra sábia,<br>
+      nem o mapa da rota mais clara.<br>
+      Carrega o pólen de um querer sem nome,<br>
+      e o cheiro de terra depois da chuva.<br><br>
+
+      Não se escreve na água o verso exato,<br>
+      ele some com a vazante do trato.<br>
+      Escreve-se na sombra que o corpo projeta,<br>
+      e na fome da mesa que espera.<br><br>
+
+      A memória não guarda o ouro ou a prata,<br>
+      ela guarda o gesto que acalenta.<br>
+      O abraço que apertou o silêncio,<br>
+      o olhar que durou mais que o tempo.<br><br>
+
+      Por isso, antes que a hora se finde<br>
+      e a noite apague a ponte para o dia,<br>
+      planta teu canto no chão de incerteza.<br>
+      Que a vida não é a certeza,<br>
+      é a semente.
+    </div>
+  </section>
+
+  <section id="contato">
+    <h2>📩 Contato</h2>
+    <p>Quer falar comigo? Envie um e-mail para:</p>
+    <p><a href="mailto:souzasantosruan16@gmail.com">souzasantosruan16@gmail.com</a></p>
+  </section>
+
+  <footer>
+    © 2025 Ruan Souza Santos — Site Oficial
+  </footer>
 </body>
 </html>
